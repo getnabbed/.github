@@ -1,0 +1,45 @@
+name: Bug report
+description: Something does not work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Security vulnerabilities must not be reported here; see the security policy instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: For the agent, the output of `agent version`.
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How it is installed
+      options:
+        - Docker / Compose
+        - Kubernetes (Helm chart)
+        - Binary (systemd, launchd or Windows service)
+        - Built from source
+        - Not applicable
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log lines. The agent never logs secrets, but check before pasting.
+      render: text

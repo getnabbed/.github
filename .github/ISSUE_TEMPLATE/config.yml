@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/getnabbed/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not in a public issue.
+  - name: Nabbed
+    url: https://nabbed.media
+    about: The Nabbed web app and account help.
