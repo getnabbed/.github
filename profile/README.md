@@ -16,7 +16,7 @@ provider credentials that only it can read.
 
 ### Get started
 
-1. **Sign up** at [app.nabbed.media](https://app.nabbed.media).
+1. **Sign up** at https://app.nabbed.media.
 2. **Install the agent** with Docker, a binary or the Helm chart; see the
    [agent README](https://github.com/getnabbed/agent#readme).
 3. **Pair it**: the agent shows a code on first start; approve it in the
